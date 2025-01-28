@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/theme.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!--wow-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- icons  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon  -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <title>ARCHI AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Loading overlay -->
+    <!-- <div class="loading-overlay">
+      <div class="loader"></div>
+    </div> -->
+    <!------------------ header  ------------------>
+    <div class="header">
+      <!------------------ navbar  ------------------>
+      <nav>
+        <div class="logo">
+          <img
+            src="assets/images/logo.png"
+            alt=""
+            class="animate__fadeInUp wow animate__animated"
+          />
+        </div>
+        <div class="right">
+          <div class="links">
+            <a href="#About">About</a>
+            <a href="#Features"> Features</a>
+            <a href="#NextWave">Next Wave</a>
+            <a href="#WhyUs">Why Us</a>
+          </div>
+          <div class="social">
+            <a href="https://t.me/ArchiAiPortal">
+              <img
+                src="assets/images/t.png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+            </a>
+            <a href="http://x.com/ArchiAiProject">
+              <img
+                src="assets/images/x.png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+            </a>
+            <a href="https://t.me/ArchiAiPortal" class="btn">
+              Join Community
+            </a>
+          </div>
+        </div>
+        <!-- Mobile Menu Icon -->
+        <div id="mobile-menu-icon" class="mobile-menu-icon">
+          &#9776;
+          <!-- Hamburger icon -->
+        </div>
+      </nav>
+      <!-- Sidebar -->
+      <div class="sidebar" id="sidebar">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <div class="pt-[5vw]">
+          <a href="#About">About</a>
+          <a href="#Features">Features</a>
+          <a href="#NextWave">Next Wave</a>
+          <a href="#WhyUs">Why Us</a>
+        </div>
+        <div class="social">
+          <div class="flex items-center justify-center">
+            <a href="https://t.me/ArchiAiPortal">
+              <img src="assets/images/t.png" alt="" class="w-[12vw]" />
+            </a>
+            <a href="http://x.com/ArchiAiProject">
+              <img src="assets/images/x.png" alt="" class="w-[12vw]" />
+            </a>
+          </div>
+          <a href="https://t.me/ArchiAiPortal" class="btn">Join Community</a>
+        </div>
+      </div>
+      <div class="main">
+        <div>
+          <img
+            src="assets/images/star.png"
+            alt="star"
+            class="md:w-[3vw] w-8 fade-in-out"
+          />
+        </div>
+        <div class="text-center">
+          <h1 class="animate__fadeInRight wow animate__animated">
+            <span>Simplifying DeFi with </span>
+            <br />
+            Composable AI Agents
+          </h1>
+          <a href="">
+            <button class="animate__fadeInLeft wow animate__animated">
+              Get Started
+            </button>
+          </a>
+        </div>
+        <div class="mt-auto">
+          <img
+            src="assets/images/star.png"
+            alt=""
+            class="md:w-[2vw] w-8 fade-in-out"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- links  -->
+
+    <div class="flex items-center justify-between px-[5vw] link relative z-40">
+      <a href="">
+        <img
+          src="assets/images/eth.webp"
+          alt=""
+          class="md:w-[12vw] w-[15vw] animate__heartBeat wow animate__animated"
+        />
+      </a>
+      <a href="">
+        <img
+          src="assets/images/dextools.webp"
+          alt=""
+          class="md:w-[10vw] w-[15vw] animate__heartBeat wow animate__animated"
+        />
+      </a>
+      <div class="-translate-y-[3vw] scale-150">
+        <img src="assets/images/scroll.png" alt="" class="w-[10vw] rounding" />
+      </div>
+      <a href="">
+        <img
+          src="assets/images/link-3.png"
+          alt=""
+          class="w-[10vw] w-[15vw] animate__heartBeat wow animate__animated"
+        />
+      </a>
+      <a href="">
+        <img
+          src="assets/images/dexsiner.webp"
+          alt=""
+          class="md:w-[13vw] w-[15vw] animate__heartBeat wow animate__animated"
+        />
+      </a>
+    </div>
+    <!------------------ about  ------------------>
+    <div
+      class="grid grid-cols-12 gap-[3vw] md:mt-[5vw] md:p-[5vw] p-[10vw]"
+      id="About"
+    >
+      <div
+        class="md:col-span-4 col-span-full relative flex items-center justify-center"
+      >
+        <div
+          class="md:text-start text-center before:w-[30vw] before:-top-[5vw] before:h-[30vw] before:bg-opacity-20 before:-z-1 before:absolute before:rounded-full before:blur-3xl before:bg-[#D91CFA30] before:block"
+        >
+          <h1
+            class="md:text-[3vw] font-semibold text-[5vw] mb-2 relative z-10 animate__fadeInUp wow animate__animated"
+          >
+            Future of Archi Ai
+          </h1>
+          <p
+            class="font-extralight relative z-10 md:w-auto md:w-[50vw] w-full mx-auto md:mb-0 mb-3 animate__fadeInUp wow animate__animated"
+          >
+            Archi AI is redefining the way you interact with decentralized
+            finance. With cutting-edge composable AI agents, we empower you to
+            automate tasks, simplify portfolio management, and stay ahead in the
+            fast-paced DeFi world.
+          </p>
+        </div>
+      </div>
+      <div
+        class="md:col-span-4 col-span-full bg-[#13051A] md:rounded-3xl rounded-2xl shadow-inner md:px-[2vw] px-[5vw] md:py-[3vw] py-[7vw] text-center shadow_1 border border-[#1C1036]"
+      >
+        <img
+          src="assets/images/icon-1.png"
+          alt=""
+          class="md:w-[8vw] w-[20vw] mx-auto rounded-full glow"
+        />
+        <h3
+          class="md:text-[2vw] text-[5vw] -mt-3 md:-mt-5 mb-2 animate__fadeInUp wow animate__animated"
+        >
+          Intelligent Agents
+        </h3>
+        <p class="font-extralight animate__fadeInUp wow animate__animated">
+          These intelligent agents are designed to empower users with tools that
+          make trading, portfolio tracking, and risk management seamless and
+          efficient.
+        </p>
+      </div>
+      <div
+        class="md:col-span-4 col-span-full bg-[#13051A] md:rounded-3xl rounded-2xl shadow-inner md:px-[2vw] px-[5vw] md:py-[3vw] py-[7vw] text-center shadow_1 border border-[#1C1036]"
+      >
+        <img
+          src="assets/images/icon-1.png"
+          alt=""
+          class="md:w-[8vw] w-[20vw] mx-auto glow rounded-full"
+        />
+        <h3
+          class="md:text-[2vw] text-[5vw] -mt-3 md:-mt-5 mb-2 animate__fadeInUp wow animate__animated"
+        >
+          Automation
+        </h3>
+        <p class="font-extralight animate__fadeInUp wow animate__animated">
+          With each agent tailored to address specific challenges, Archi AI
+          delivers an ecosystem where automation & intelligence combine to
+          simplify DeFi for traders and investors at every level.
+        </p>
+      </div>
+    </div>
+    <!------------------ Our Features  ------------------>
+    <div class="Our_Features text-center" id="Features">
+      <span
+        class="animate__fadeInUp wow animate__animated flex items-center justify-center gap-5"
+      >
+        <img src="assets/images/Horizontal Divider.png" alt="" class="w-10" />
+        Our Features
+        <img src="assets/images/Horizontal Divider-2.png" alt="" class="w-10" />
+      </span>
+      <h1 class="animate__fadeInUp wow animate__animated">
+        Existing DeFAI Agents
+      </h1>
+      <p class="animate__fadeInUp wow animate__animated">
+        Here’s how our agents have been rebranded to better reflect their
+        purpose:
+      </p>
+
+      <div class="slider-container">
+        <div class="slider">
+          <div class="box">
+            <div class="iner md:space-y-3 space-y-2">
+              <img
+                src="assets/images/icon-1 (2).png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+              <h2 class="animate__fadeInUp wow animate__animated">
+                Virtual Portfolio Agent → Nebula
+              </h2>
+              <h3 class="animate__fadeInUp wow animate__animated">
+                The Portfolio Mastermind
+              </h3>
+              <p class="animate__fadeInUp wow animate__animated">
+                Simplify portfolio creation and management with Nebula. Test
+                strategies risk-free, gain actionable insights, and optimize
+                your DeFi investments effortlessly.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="iner md:space-y-3 space-y-2">
+              <img
+                src="assets/images/icon-2.png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+              <h2 class="animate__fadeInUp wow animate__animated">
+                Wallet Tracking Agent → Hawk –
+              </h2>
+              <h3 class="animate__fadeInUp wow animate__animated">
+                The Wallet Watcher
+              </h3>
+              <p class="animate__fadeInUp wow animate__animated">
+                Stay in control with Hawk’s real-time tracking of your DeFi
+                wallets. Get personalized updates on balances, transactions, and
+                performance at a glance.
+              </p>
+            </div>
+          </div>
+          <!-- box 3 -->
+          <div class="box">
+            <div class="iner md:space-y-3 space-y-2">
+              <img
+                src="assets/images/icon-3.png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+              <h2 class="animate__fadeInUp wow animate__animated">
+                Token Rating Agent → Oracle –
+              </h2>
+              <h3 class="animate__fadeInUp wow animate__animated">
+                The Token Whisperer
+              </h3>
+              <p class="animate__fadeInUp wow animate__animated">
+                Navigate the DeFi market smarter with Oracle. Evaluate tokens,
+                uncover risks, and seize opportunities with AI-driven token
+                insights.
+              </p>
+            </div>
+          </div>
+          <!-- box 4 -->
+          <div class="box">
+            <div class="iner md:space-y-3 space-y-2">
+              <img
+                src="assets/images/icon-4.png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+              <h2 class="animate__fadeInUp wow animate__animated">
+                Copy Trade Agent → Phantom –
+              </h2>
+              <h3 class="animate__fadeInUp wow animate__animated">
+                The Trade Shadow
+              </h3>
+              <p class="animate__fadeInUp wow animate__animated">
+                Automate your DeFi trades with Phantom by mirroring
+                top-performing traders. Customize preferences and let it handle
+                execution for maximum efficiency.
+              </p>
+            </div>
+          </div>
+          <!-- box 4 -->
+          <div class="box">
+            <div class="iner md:space-y-3 space-y-2">
+              <img
+                src="assets/images/icon-5.png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+              <h2 class="animate__fadeInUp wow animate__animated">
+                Performance Analysis Agent → Echo – 
+              </h2>
+              <h3 class="animate__fadeInUp wow animate__animated">
+                 The Data Guru
+              </h3>
+              <p class="animate__fadeInUp wow animate__animated">
+                Gain a clearer perspective on DeFi with Echo. Analyze historical
+                data, uncover trends, and refine strategies to boost your
+                performance.
+              </p>
+            </div>
+          </div>
+          <!-- box 6 -->
+          <div class="box">
+            <div class="iner md:space-y-3 space-y-2">
+              <img
+                src="assets/images/icon-6.png"
+                alt=""
+                class="animate__fadeInUp wow animate__animated"
+              />
+              <h2 class="animate__fadeInUp wow animate__animated">
+                Trade Management Agent → Titan – 
+              </h2>
+              <h3 class="animate__fadeInUp wow animate__animated">
+                 The Trade Captain
+              </h3>
+              <p class="animate__fadeInUp wow animate__animated">
+                Take charge of your DeFi trades with Titan. Manage multiple
+                wallets and execute trades seamlessly with intelligent
+                automation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+    <!-- center gif  -->
+    <div class="relative">
+      <img
+        src="assets/images/top-layar.png"
+        alt=""
+        class="w-full absolute -z-1 -mt-2 md:-top-5 h-[4vw]"
+      />
+      <img src="assets/images/center-gif.gif" alt="" class="w-full" />
+      <img
+        src="assets/images/bottom-layar.png"
+        alt=""
+        class="w-full absolute z-40"
+      />
+    </div>
+    <!------------------ Next Wave  ------------------>
+    <div class="Next_Wave text-center" id="NextWave">
+      <span
+        class="animate__fadeInUp wow animate__animated flex items-center justify-center gap-5"
+      >
+        <img
+          src="assets/images/Horizontal Divider.png"
+          alt=""
+          class="w-10 animate__fadeInUp wow animate__animated"
+        />
+        Next Wave
+        <img
+          src="assets/images/Horizontal Divider-2.png"
+          alt=""
+          class="w-10 animate__fadeInUp wow animate__animated"
+        />
+      </span>
+      <h1 class="animate__fadeInUp wow animate__animated">
+        Introducing the Next Wave of <br class="md:block hidden" />
+        DeFi Agents
+      </h1>
+      <p class="animate__fadeInUp wow animate__animated">
+        Archi AI is taking DeFi simplification further with new AI agents that
+        <br class="md:block hidden" />
+        enhance risk management, sentiment analysis, and market opportunities
+      </p>
+      <div class="main grid md:grid-cols-3 grid-cols-1 gap-5">
+        <div class="box_1">
+          <img src="assets/images/fav.png" alt="" />
+          <img src="assets/images/fav.png" alt="" />
+          <img src="assets/images/fav.png" alt="" />
+          <img src="assets/images/fav.png" alt="" />
+          <img src="assets/images/fav.png" alt="" />
+          <img src="assets/images/fav.png" alt="" />
+          <img src="assets/images/fav.png" alt="" />
+        </div>
+        <div class="space-y-3">
+          <div class="iner_box iner_box_1 space-y-2">
+            <img
+              src="assets/images/user-icon.png"
+              alt=""
+              class="animate__fadeInUp wow animate__animated"
+            />
+            <h2 class="animate__fadeInUp wow animate__animated">
+              Sentinel – The Token Defender
+            </h2>
+            <p class="animate__fadeInUp wow animate__animated">
+              Avoid DeFi pitfalls with Sentinel. This agent conducts token
+              audits, evaluating contract vulnerabilities, liquidity issues, and
+              red flags like blacklist functions and high taxes.
+            </p>
+          </div>
+          <div class="iner_box iner_box_2 space-y-2">
+            <img
+              src="assets/images/user-icon.png"
+              alt=""
+              class="animate__fadeInUp wow animate__animated"
+            />
+            <h2 class="animate__fadeInUp wow animate__animated">
+              Guardian – The Risk Shield
+            </h2>
+            <p class="animate__fadeInUp wow animate__animated">
+              Simplify portfolio protection with Guardian. Monitor your risk
+              exposure and let it reallocate assets automatically to safeguard
+              your DeFi holdings during market volatility.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <div class="iner_box iner_box_3 space-y-2">
+            <img
+              src="assets/images/user-icon.png"
+              alt=""
+              class="animate__fadeInUp wow animate__animated"
+            />
+            <h2 class="animate__fadeInUp wow animate__animated">
+              Bolt – The Arbitrage Hunter
+            </h2>
+            <p class="animate__fadeInUp wow animate__animated">
+              Maximize your gains with Bolt’s ability to scan decentralized
+              exchanges for arbitrage opportunities. Execute profitable trades
+              automatically with added copy and snipe functionality.
+            </p>
+          </div>
+          <div class="iner_box iner_box_4 space-y-2">
+            <img
+              src="assets/images/user-icon.png"
+              alt=""
+              class="animate__fadeInUp wow animate__animated"
+            />
+            <h2 class="animate__fadeInUp wow animate__animated">
+              Pulse – The Sentiment Seeker
+            </h2>
+            <p class="animate__fadeInUp wow animate__animated">
+              Stay ahead of DeFi trends with Pulse. This agent analyzes social
+              sentiment on platforms like Twitter, generating actionable
+              insights to guide your next move.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------ Why Us?  ------------------>
+    <div class="Why_Us text-center" id="WhyUs">
+      <div class="bg"></div>
+      <div class="content">
+        <span
+          class="animate__fadeInUp wow animate__animated flex items-center justify-center gap-5"
+        >
+          <img
+            src="assets/images/Horizontal Divider.png"
+            alt=""
+            class="w-10 animate__fadeInUp wow animate__animated"
+          />
+          Why Us?
+          <img
+            src="assets/images/Horizontal Divider-2.png"
+            alt=""
+            class="w-10 animate__fadeInUp wow animate__animated"
+          />
+        </span>
+        <h1 class="animate__fadeInUp wow animate__animated">Why Archi AI?</h1>
+        <p class="animate__fadeInUp wow animate__animated">
+          Archi AI’s focus on simplifying DeFi through composable AI agents
+          ensures every user can navigate the complexities of decentralized
+          <br class="md:block hidden" />
+          finance with ease. Each agent is part of a unified ecosystem, together
+          to automate repetitive tasks, reduce risks, and uncover
+          <br class="md:block hidden" />
+          opportunities—all while saving you time and effort.
+        </p>
+        <a href="https://t.me/ArchiAiPortal">
+          <button>Telegram</button>
+        </a>
+      </div>
+    </div>
+    <!------------------ join  ------------------>
+    <div class="join grid md:grid-cols-2 grid-cols-1 gap-5">
+      <div>
+        <div class="flex items-center md:justify-start justify-center">
+          <h1 class="animate__fadeInUp wow animate__animated">Join us</h1>
+          <span class="animate__fadeInUp wow animate__animated">today.</span>
+        </div>
+        <p class="animate__fadeInUp wow animate__animated">
+          Stay connected with us by joining us on our socials!
+        </p>
+      </div>
+      <div class="flex md:items-center items-start justify-center">
+        <a href="https://t.me/ArchiAiPortal">
+          <button class="animate__fadeInUp wow animate__animated">
+            Telegram <i class="ri-arrow-right-line"></i>
+          </button>
+        </a>
+      </div>
+    </div>
+    <!------------------ footer  ------------------>
+    <div class="px-[5vw] pt-[5vw] pb-[2vw] relative">
+      <div class="">
+        <div class="grid grid-cols-12 gap-[3vw]">
+          <div class="md:col-span-3 col-span-4">
+            <img
+              src="assets/images/footer-logo.png"
+              alt=""
+              class="md:w-[10vw] w-[25vw] animate__fadeInUp wow animate__animated"
+            />
+          </div>
+          <div
+            class="md:col-span-6 col-span-8 border-x border-gray-800 px-[3vw]"
+          >
+            <h3
+              class="text-[#DA2171] text-base animate__fadeInUp wow animate__animated"
+            >
+              ABOUT:
+            </h3>
+            <p
+              class="animate__fadeInUp wow animate__animated"
+              class="md:mt-5 mt-3 md:text-[1.4vw] text-[2vw] animate__fadeInUp wow animate__animated"
+            >
+              At Archi AI, we merge artificial intelligence with blockchain
+              technology to unlock the potential of DeFi. Our intelligent agents
+              are tailored to streamline trading, track assets, and enhance
+              decision-making, giving you the tools to lead in
+              decentralized finance.
+            </p>
+          </div>
+          <div class="md:col-span-3 col-span-full">
+            <h3 class="text-[#DA2171] md:block hidden">Links:</h3>
+            <div
+              class="flex items-center md:justify-start justify-center md:gap-[2vw] gap-5 md:mt-5 mt-3"
+            >
+              <div
+                class="flex md:flex-col flex-row md:gap-3 gap-5 md:items-start items-center"
+              >
+                <a
+                  href="#About"
+                  class="md:text-[1.5vw] text-[4vw] font-light animate__fadeInUp wow animate__animated"
+                >
+                  About
+                </a>
+
+                <a
+                  href="#NextWave"
+                  class="md:text-[1.5vw] text-[4vw] font-light animate__fadeInUp wow animate__animated"
+                >
+                  Next Wave
+                </a>
+              </div>
+              <div
+                class="flex md:flex-col flex-row md:gap-3 gap-5 md:items-start items-center"
+              >
+                <a
+                  href="#Features"
+                  class="md:text-[1.5vw] text-[4vw] font-light animate__fadeInUp wow animate__animated"
+                >
+                  Features
+                </a>
+                <a
+                  href="#WhyUs"
+                  class="md:text-[1.5vw] text-[4vw] font-light animate__fadeInUp wow animate__animated"
+                >
+                  Why Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="opacity-10 my-5" />
+        <div
+          class="flex items-center md:flex-row flex-col-reverse gap-5 md:justify-between justify-center py-4 text-[#DA2171]"
+        >
+          <p class="text-[#DA2171] animate__fadeInUp wow animate__animated">
+            © 2025
+          </p>
+          <div class="flex items-center gap-3 md:pl-20">
+            <a href="" class="animate__fadeInUp wow animate__animated">
+              Terms & Conditions
+            </a>
+            <a href="" class="animate__fadeInUp wow animate__animated">
+              Privacy Policy
+            </a>
+          </div>
+          <div class="flex items-center md:gap-[2vw] gap-[5vw]">
+            <p class="text-[#DA2171] animate__fadeInUp wow animate__animated">
+              OUR SOCIALS:
+            </p>
+            <a href="http://x.com/ArchiAiProject">
+              <img
+                src="assets/images/x.png"
+                alt=""
+                class="md:w-[5vw] w-[10vw] animate__fadeInUp wow animate__animated"
+              />
+            </a>
+            <a href="https://t.me/ArchiAiPortal">
+              <img
+                src="assets/images/t.png"
+                alt=""
+                class="md:w-[5vw] w-[10vw] animate__fadeInUp wow animate__animated"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: true,
+        live: true,
+      });
+      wow.init();
+    </script>
+
+    <!-- aos -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      });
+    </script>
+    <script defer type="text/javascript">
+      $("[data-aos]").parent().addClass("delete_extra_space");
+    </script>
+    <script>
+      window.addEventListener("load", function () {
+        document.querySelector(".loading-overlay").style.display = "none";
+      });
+    </script>
+    <script defer src="/assets/js/main.js"></script>
+  </body>
+</html>
